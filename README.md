@@ -1,108 +1,111 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# MINDFULNESS-MEDITATION-Code-Institute-Project
 
-Welcome USER_NAME,
+https://javierbl89.github.io/MINDFULNESS-MEDITATION-Code-Institute-Project/index.html
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+## About
+Support and techniques about Mindfulness/Meditation/Yoga
+Every page provides an introduccion and definition of what it is about, along with techniques and support on how it should be done accompanied to videos or video links to exercises.
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+All the content has been copied and pasted away, only been carefully choosen from diferents sources as well as the videos and video links, nothing it's been taken ligthly.
 
-## Gitpod Reminders
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+## Project images
 
-`python3 -m http.server`
+Desktop
+[](../images/Captura%20de%20pantalla%20(25).png)
+[](../images/Captura%20de%20pantalla%20(26).png)
+[](../images/Captura%20de%20pantalla%20(27).png)
 
-A blue button should appear to click: _Make Public_,
+Mobile
+[](../images/Captura%20de%20pantalla%20(30).png)
+[](../images/Captura%20de%20pantalla%20(31).png)
+[](../images/Captura%20de%20pantalla%20(32).png)
 
-Another blue button should appear to click: _Open Browser_.
+# Me
+I'm only new to programming. Last year i took up a Full Stack Web Development course through Udemy tought by Angela Yu, which is a well-rounded and extense course.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+After building up a few walk through projects, i am happily putting out there my very first project on my own.
 
-A blue button should appear to click: _Make Public_,
+I chose one of the Projects ideas provided by Code Institute, since I'm not very agil for now to come up with apps ideas.. :)
 
-Another blue button should appear to click: _Open Browser_.
+Following the Portfolio 1 Code Institute Project rules, this project is build-up by only using HTML and CSS, so you'll find the burhuer menu no functional, although i implemented Boostrap for Navbar layout and for buttons style in cases i needed it.
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
 
-To log into the Heroku toolbelt CLI:
+# Project Estructure
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+The project is divided in 6 pages:
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+### Main pages
+1. HOME
+https://javierbl89.github.io/MINDFULNESS-MEDITATION-Code-Institute-Project/index.html
 
-------
+2. MINDFULNESS
+https://javierbl89.github.io/MINDFULNESS-MEDITATION-Code-Institute-Project/assets/html/mindfulness.html
 
-## Release History
+3. MINDFULNESS MEDITATION
+https://javierbl89.github.io/MINDFULNESS-MEDITATION-Code-Institute-Project/assets/html/mindfulness&meditation.html
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+4. MEDITATION
+https://javierbl89.github.io/MINDFULNESS-MEDITATION-Code-Institute-Project/assets/html/meditation.html
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+5. YOGA
+https://javierbl89.github.io/MINDFULNESS-MEDITATION-Code-Institute-Project/assets/html/yoga.html
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+### Sub pages
+6. BODY SCAN
+https://javierbl89.github.io/MINDFULNESS-MEDITATION-Code-Institute-Project/assets/html/bodyScan.html
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+# Pages structure
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+Every page is made up by;
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+1. Navbar.
+2.Navigation bar for external pages.
+3.Navigation bar for page sections.
+4.Page content.
+5.Footer.
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+# CSS files structure
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+I have reused plenty of code for templaiting, and i have organised the CSS code for it to be easy to find by using the line numbers as landmarks, so all of the CSS files(except home.css) are equally structure:
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+Line 1 onwards    -Common Features.
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+Line 180 onwards  -Page content for Desktop.
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+Line 325 onwards   -Media 1000px Common Features.
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+Line 480 onwads    -Media 1000px Page Content.
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+Line 580 onwards   -Media 575px Common Features.
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+Line 740 onwards   -Media 575px Page Content.
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
 
-------
+# Developing the project
 
-## FAQ about the uptime script
+Plenty of features could be added such as;
 
-**Why have you added this script?**
+1. Sing in page.
+2. User page.
+3. Guided exercises according to levels.
+4. Weekly/Monthly Guided exercises for the ones with little spare time or the ones who need some guidance to tel them what to do next, etc.
+5. Payment page.
+6. Related content, such as videos, interviews, books, gear.. etc.
+7. Community, set up a community interface for sharing, helping, meetings and live meditations sessions.
+8. Shop linked to the page.
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
+# Bugs
 
-**How will this affect me?**
+Sometimes i can't seem to target the css elements from the external CSS file... i don't know why it happens..
 
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
+Also even reusing the code, it seems to behave differently in some page... i don't get why...
+For instance the navigation bar for external pages(i don't know whether if i'm saying that right), mean the navigation bar for MINDFULNESS MINDFULNESS/MEDITATION YOGA MEDITATION pages, with that one have came across with a layout issue on the mobile size in only the MINDFULNESS and YOGA pages. Where it says mindfulnes meditation, the words woul go onto each other changing the layout, like this:  ![](../images/Captura%20de%20pantalla%20(24).png)
 
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
+The odd thing is that it only happen in the Mindfulness page.
 
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
+To solve this, i didn't want to change the font size as it would be too small to my liking, so i wided its container margin and did the same in all the pages to make sure it does not happen in any device to any page.
 
-**So….?**
+Another challenge was to figure out the files paths when deploying into github, i have spent quite a few hours of trail an error, till i realized github needs a few minutes to finally update changes..
 
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
-
-**Can I opt out?**
-
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
-
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
-
-**Anything more?**
-
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
-
----
-
-Happy coding!
+That's all for, see you soon!

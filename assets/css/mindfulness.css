@@ -1,0 +1,773 @@
+body{
+  background-color: rgb(246, 252, 244);
+  color: #444941;
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+ .navbar{
+   padding: 3% 6%;
+ }
+
+
+/***** HEADER ******/
+nav  a{
+  color: #444941;
+}
+
+.nav-link{
+  margin-left: 30px;
+  position: relative;
+  border: solid 1px rgb(246, 252, 244);
+}
+
+.nav-link:hover{
+  color:#444941;
+border-color: #444941;
+border-radius: 10px;
+}
+
+.navbar-brand{
+  font-size: 2rem;
+  font-weight: bold;
+font-family: 'Open Sans', sans-serif;
+cursor: auto;
+}
+.navbar-brand:hover{
+  color: inherit;
+}
+
+
+/****  NAVIGATION BAR  ************/
+
+.navigation-bar-container{
+  padding: 3% 6% 1% 6%;
+  color: rgb(255, 179, 68);
+  background-color: #444941;
+  font-weight: bold;
+}
+
+.navigation-items{
+  margin: 0 auto;
+ display: flex;
+}
+
+.navigation-items .active{
+border-bottom: solid 2px rgb(255, 179, 68);
+border-radius: 10%;
+}
+
+.navigation-items a:hover{
+text-decoration: none;
+color: rgb(246, 200, 133);
+}
+
+.navigation-bar-container a{
+  margin-left: 30px;
+  margin-right: 30px;
+   color: rgb(255, 179, 68);
+}
+
+.separator-navigation-container{
+  margin-left: 0;
+}
+
+/**** NAVIGATION BAR MOBILE ****/
+.navigation-mobile-container{
+  display: none;
+}
+
+
+/***** PAGE NAVIGATION ****/
+.top-page-navigation{
+padding: 0% 18%;
+background-color: rgb(246, 252, 244);
+}
+
+.top-page-items-navigation{
+  justify-content: space-around;
+display: flex;
+padding-top: 6%;
+font-size: 23px;
+font-weight: 500;
+}
+
+
+/***** REVIEWS CONTAINER ******/
+.review-container{
+  text-align: center;
+  margin-top: 8%;
+  margin: 0 auto;
+  background-color: rgb(203, 188, 109);
+height: 120px;
+padding: 3% 3% 3% 3%;
+margin-top: 50px;
+margin-bottom: 50px;
+border-radius: 10px;
+  width: 40%;
+}
+
+ .review-container a{
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+/* FOOTER SECTION */
+
+#footer{
+  background-color: rgb(37, 50, 42);
+  width: 100%;
+  padding-top: 5%;
+}
+
+.footer-brand{
+  font-weight: bold;
+  color: white;
+  display: inline;
+  margin-right: 60px;
+  padding-bottom: 5%;
+  font-family: 'Open Sans', sans-serif;
+  background-color: rgb(37, 50, 42);
+font-size: 2.5rem;
+}
+
+.footer-containers-wrapper{
+  display: flex;
+}
+
+
+.footer-items-container{
+  margin: 0 80px;
+  line-height: 45px;
+}
+
+.footer-items-container p{
+  padding-bottom: 14px;
+}
+
+#footer a{
+  display: grid;
+color: white;
+}
+
+#footer a:hover{
+  color: rgb(255, 179, 68);
+text-decoration: none;
+}
+
+.copy-right{
+  font-size: 16px;
+  text-align: center;
+  color: white;
+  padding: 5%;
+  margin-bottom: 0;
+}
+
+/* modal */
+#modal-footer-wraper {
+  display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+/************************ PAGE CONTENT **********/
+
+.main-wraper{
+  padding: 3% 15% 3% 15%;
+  line-height: 31px;
+  }
+
+.main-wraper h1, h2, h3, h5{
+   background-color: rgb(255, 250, 200);
+ }
+
+.main-wraper a{
+  color: rgb(56, 154, 195);
+}
+
+.main-wraper ul{
+list-style: none;
+}
+
+.main-wraper li{
+  font-family: 'Poppins', sans-serif;
+list-style: none;
+}
+
+.main-wraper ul li::before{
+  content: "\2022";
+color:rgb(179, 0, 203);
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+
+img{
+  width: 100%;
+}
+
+.intro-meditation-container h1{
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
+
+hr{
+  width: 100%;
+}
+
+.intro-meditation-container .firstEmphasis{
+  font-size: 1.2rem;
+}
+
+.video-intro-mindAndMeditation{
+  margin-top: 10%;
+}
+
+.video-intro-mindAndMeditation label{
+  margin-top: 5%;
+}
+
+.mindfulness-video{
+  display: block;
+text-align: left;
+ padding: 5% 0;
+ text-align: center;
+}
+
+#video-1, #video-2{
+  width:560px;
+   height:315px;
+   border: none;
+
+}
+
+.snapchat-mindfulness{
+  margin: 0 auto;
+  padding-top: 3%;
+  width: 60%;
+
+}
+
+.snapchat-mindfulness h6{
+  line-height: 35px;
+  font-size: 1.4rem;
+}
+
+
+/** HOW TO PRACTICE SECTION **/
+
+.content-practise-mindfulness{
+  padding-top: 5%;
+  }
+
+.content-practise-mindfulness h2{
+  padding: 3% 0;
+
+}
+
+.content-practise-mindfulness li{
+  margin-bottom: 20px;
+}
+
+.content-practise-mindfulness a {
+  margin-top: 20px;
+
+}
+
+.animation-container{
+text-align: center;
+ }
+
+.animation-container h4{
+  padding-bottom: 3%;
+}
+
+label{
+  margin-top: 3%;
+      font-style: italic;
+      display: block;
+    }
+
+.animation-container{
+  padding-top: 8%;
+}
+
+/***** BENEFITS SECTION ****/
+
+.mindfulness-benefits-container h2{
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+.mindfulness-benefits-container li{
+  margin-top: 30px;
+}
+
+#video-link{
+  margin-left: 18px;
+}
+
+
+
+
+
+
+
+
+/***** MEDIA SECTION ***/
+
+@media screen and (max-width: 990px) {
+
+  .burguer {
+    position: absolute;
+    right: 40px;
+    top: 40px;
+    display: inline-block;
+    height: 40px;
+    width: 50px;
+    border: solid 1px #444941;
+    border-radius: 10%;
+  }
+
+  .line {
+    background-color: #444941;
+    width: 25px;
+    height: 4px;
+    margin: 7px 11px;
+    border-radius: 15px;
+  }
+
+  .navbar-brand {
+    font-size: 1.8rem;
+  }
+
+  /* NAVIGATION BAR */
+
+  .navigation-bar-container{
+    display: none;
+    margin: 0 auto;
+  }
+
+  /* MOBILE */
+
+  .navigation-mobile-container{
+    padding: 3% 6% 3% 6%;
+    color: rgb(255, 179, 68);
+    background-color: #444941;
+    display: flex;
+    text-align: center;
+  }
+
+  .navigation-items{
+  font-size: 19px;
+  font-weight: bold;
+  display: flex;
+  margin: 0 auto;
+  line-height: 39px;
+  }
+
+  .navigation-items .active{
+   border-bottom: solid 2px rgb(255, 179, 68);
+  }
+
+  .separator-navigation-container{
+  margin: auto 20px;
+  color: rgb(255, 179, 68);
+  display:grid;
+  }
+
+  .separator-navigation-container a{
+  color: rgb(255, 179, 68);
+  }
+
+  /***** PAGE NAVIGATION ****/
+
+  .top-page-navigation{
+  padding: 0% 10%;
+  }
+
+  .top-page-items-navigation{
+    display: flex;
+  padding-top: 6%;
+  font-size: 20px
+  }
+
+  .top-page-items-navigation a{
+    margin-left: 5px;
+    margin-right: 5px;
+    font-size: 19px;
+    text-align: center;
+  }
+
+  /***  MODAL FOOTER SECTION ****/
+
+  .footer-containers-wrapper {
+    display: none;
+  }
+
+  #modal-footer-wraper {
+    display: grid;
+    padding: 5% 7% 0 7%;
+  }
+
+  .modal-footer-container {
+    display: flex;
+    padding: 0 20%;
+  }
+
+  .modal-items-container {
+    display: flex;
+    line-height: 45px;
+  }
+
+  .modal-footer-links-container {
+    margin: 0 auto;
+  }
+
+  .modal-footer-social-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 6%;
+  }
+
+  .modal-footer-social-container a {
+    margin: auto 30px;
+  }
+
+  .modal-footer-brand {
+    font-size: 2.5rem;
+    margin-bottom: 0;
+    text-align: center;
+    color: white;
+    background-color: rgb(37, 50, 42);
+
+  }
+
+
+  /***** REVIEW CONTAINER ******/
+  .review-container{
+    margin-top: 8%;
+    margin: 0 auto;
+    background-color: rgb(203, 188, 109);
+  height: 120px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  border-radius: 10px;
+    width: 60%;
+    font-size: 19px;
+  }
+
+   .review-container a{
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+
+
+
+
+
+
+
+  /************** PAGE CONTENT **********/
+
+  h1{
+    font-size: 2rem;
+  }
+  h2{
+    font-size: 1.7rem
+  }
+
+h5{
+  font-size: 1.1rem;
+}
+
+img{
+  width: 100%;
+}
+
+.main-wraper{
+  text-align: center;
+  margin: 0 auto;
+  padding: 3% 15%;
+
+}
+
+  .video-intro-mindAndMeditation label{
+    margin-top: 5%;
+  }
+
+  .intro-meditation-container h1{
+    padding-top: 3%;
+    padding-bottom: 3%;
+  }
+
+  hr {
+    margin-top: 0;
+    width: 70%;
+  margin-left: 0;
+  padding-bottom: 10px;
+  }
+
+  .intro-meditation-container .firstEmphasis{
+    font-size: 1.2rem;
+  }
+  .mindfulness-video{
+    display: grid;
+  text-align: left;
+   padding: 0 5%;
+   width:100%;
+margin: 0 auto;
+  }
+
+.mindfulness-video .snapchat-mindfulness{
+  margin: 0 auto;
+}
+
+  #video-1, #video-2{
+    width:450px;
+     height:290px;
+     margin: 0 auto;
+  }
+
+  .snapchat-mindfulness h6{
+    text-align: center;
+    margin-top: 7%;
+    line-height: 30px;
+    font-size: 1.1rem;
+  }
+
+  .snapchat-mindfulness p{
+    margin-bottom: 0;
+  }
+
+.content-practise-mindfulness ul{
+  text-align: left;
+  /* padding-left: 15px; */
+}
+
+.mindfulness-benefits-container ul{
+  text-align: left;
+}
+/* ANIMATION VIDEO */
+#animation-video{
+  width:450px;
+   height:290px;
+}
+
+#video-link{
+  margin-left: 0;
+}
+}
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 575px){
+
+  .main-wraper{
+    text-align: center;
+    margin: 0 auto;
+    padding: 3% 7%;
+
+  }
+
+  .snapchat-mindfulness{
+    text-align: center;
+    margin: 0 auto;
+  }
+  .burguer {
+    position: absolute;
+    right: 25px;
+    top: 15px;
+    display: inline-block;
+    height: 35px;
+    width: 45px;
+  }
+
+  .line {
+    width: 20px;
+    height: 3px;
+    margin: 6px 11px;
+    border-radius: 15px;
+  }
+
+  .navbar-brand {
+    font-size: 1.5rem;
+  }
+
+  /* FOOTER SECTION */
+
+
+  .footer-containers-wrapper {
+    display: none;
+  }
+
+  #modal-footer-wraper {
+    display: grid;
+    padding-top: 6%;
+
+  }
+
+  .modal-items-container {
+    display: flex;
+    line-height: 45px;
+
+  }
+.modal-footer-links-container{
+margin: 0 auto;
+}
+
+  .modal-footer-social-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 15%;
+  }
+
+  .modal-footer-social-container a {
+    margin: auto 30px;
+  }
+
+  .modal-footer-brand {
+    font-size: 2rem;
+    margin-bottom: 0;
+    text-align: center;
+    color: white;
+    background-color: rgb(37, 50, 42);
+
+  }
+
+/***** NAVIGATION SECTION *****/
+
+
+/* MOBILE */
+
+.navigation-mobile-container{
+  padding: 6% 0% 6% 0%;
+  color: rgb(255, 179, 68);
+  background-color: #444941;
+  justify-content: space-around;
+  display: flex;
+  text-align: center;
+}
+
+.navigation-items{
+font-size: 14px;
+font-weight: bold;
+display: flex;
+line-height: 27px;
+margin: auto 0;
+}
+
+.navigation-items .active{
+  font-size: 14px;
+  border-bottom: solid 1px rgb(255, 179, 68);
+}
+
+.navigation-bar-container a{
+  margin-left: 25px;
+  margin-right: 25px;
+   color: rgb(255, 179, 68);
+
+}
+
+/***** PAGE NAVIGATION ****/
+
+.top-page-navigation{
+padding: 0% 8%;
+}
+
+.top-page-items-navigation{
+padding-top: 6%;
+padding-bottom: 3%;
+font-size: 19px
+}
+
+.top-page-items-navigation a{
+  margin-left: 5px;
+  margin-right: 5px;
+  font-size: 14px;
+  text-align: center;
+
+}
+
+.separator-navigation-container{
+  margin-left: 18px;
+  margin-right: 18px;
+}
+
+/***** REVIEWS CONTAINER ******/
+
+.review-container{
+  margin-top: 10%;
+  margin: 0 auto;
+  background-color: rgb(203, 188, 109);
+height: 100px;
+margin-top: 50px;
+margin-bottom: 50px;
+border-radius: 10px;
+  width: 80%;
+  font-size: 18px;
+}
+
+.review-container h6{
+  font-size: 0.9rem;
+}
+
+ .review-container a{
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+
+
+
+
+  /** PAGE CONTENT **/
+
+  h1{
+    font-size: 1.6rem;
+  }
+
+  h2{
+    font-size: 1.4rem;
+  }
+  h3{
+    font-size: 1.2rem;
+  }
+
+  img{
+    width: 100%;
+  }
+
+  #video-1, #video-2{
+    width:300px;
+     height:180px;
+  }
+
+  .snapchat-mindfulness{
+    margin: 50px 0;
+    width: 82%;
+  }
+
+  .snapchat-mindfulness h6{
+    line-height: 25px;
+    font-size: 1rem;
+  }
+
+
+}
