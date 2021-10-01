@@ -35,9 +35,12 @@ border-radius: 10px;
   font-size: 2rem;
   font-weight: bold;
   font-family: 'Open Sans', sans-serif;
-
 }
 
+.navbar-brand:hover{
+  color: #444941;
+  cursor: auto;
+}
 
 /****  NAVIGATION BAR  ************/
 
@@ -284,9 +287,6 @@ img{
 .benefits-container ul li{
   margin-bottom: 15px;
 }
-
-
-
 
 
 
