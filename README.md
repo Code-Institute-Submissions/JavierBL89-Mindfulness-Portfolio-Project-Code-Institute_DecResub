@@ -1,6 +1,6 @@
 # MINDFULNESS-MEDITATION-Code-Institute-Project
 
-https://javierbl89.github.io/MINDFULNESS-MEDITATION-Code-Institute-Project/index.html
+https://javierbl89.github.io/Mindfulness-Portfolio-Project-Code-Institute/
 
 ## About
 Support and techniques about Mindfulness/Meditation/Yoga
@@ -12,14 +12,14 @@ All the content has been copied and pasted away, only been carefully choosen fro
 ## Project images
 
 Desktop
-[](../images/Captura%20de%20pantalla%20(25).png)
-[](../images/Captura%20de%20pantalla%20(26).png)
-[](../images/Captura%20de%20pantalla%20(27).png)
+[](assets/images/Captura%20de%20pantalla%20(25).png)
+[](assets/images/Captura%20de%20pantalla%20(26).png)
+[](assets/images/Captura%20de%20pantalla%20(27).png)
 
 Mobile
-[](../images/Captura%20de%20pantalla%20(30).png)
-[](../images/Captura%20de%20pantalla%20(31).png)
-[](../images/Captura%20de%20pantalla%20(32).png)
+[](assets/images/Captura%20de%20pantalla%20(30).png)
+[](assets/images/Captura%20de%20pantalla%20(31).png)
+[](assets/images/Captura%20de%20pantalla%20(32).png)
 
 # Me
 I'm only new to programming. Last year i took up a Full Stack Web Development course through Udemy tought by Angela Yu, which is a well-rounded and extense course.
@@ -37,23 +37,23 @@ The project is divided in 6 pages:
 
 ### Main pages
 1. HOME
-https://javierbl89.github.io/MINDFULNESS-MEDITATION-Code-Institute-Project/index.html
+https://javierbl89.github.io/Mindfulness-Portfolio-Project-Code-Institute/index.html
 
 2. MINDFULNESS
-https://javierbl89.github.io/MINDFULNESS-MEDITATION-Code-Institute-Project/assets/html/mindfulness.html
+https://javierbl89.github.io/Mindfulness-Portfolio-Project-Code-Institute/assets/html/mindfulness.html
 
 3. MINDFULNESS MEDITATION
-https://javierbl89.github.io/MINDFULNESS-MEDITATION-Code-Institute-Project/assets/html/mindfulness&meditation.html
+https://javierbl89.github.io/Mindfulness-Portfolio-Project-Code-Institute/assets/html/mindfulness&meditation.html
 
 4. MEDITATION
-https://javierbl89.github.io/MINDFULNESS-MEDITATION-Code-Institute-Project/assets/html/meditation.html
+https://javierbl89.github.io/Mindfulness-Portfolio-Project-Code-Institute/assets/html/meditation.html
 
 5. YOGA
-https://javierbl89.github.io/MINDFULNESS-MEDITATION-Code-Institute-Project/assets/html/yoga.html
+https://javierbl89.github.io/Mindfulness-Portfolio-Project-Code-Institute/assets/html/yoga.html
 
 ### Sub pages
 6. BODY SCAN
-https://javierbl89.github.io/MINDFULNESS-MEDITATION-Code-Institute-Project/assets/html/bodyScan.html
+https://javierbl89.github.io/Mindfulness-Portfolio-Project-Code-Institute/assets/html/bodyScan.html
 
 # Pages structure
 
