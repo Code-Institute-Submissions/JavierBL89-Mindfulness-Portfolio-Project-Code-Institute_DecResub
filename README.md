@@ -209,7 +209,28 @@ The site is fully responsive as shown above and all images scale down smoothingl
 
 ### Lighthouse
 
+Due to a fontawesome, Google Fonts and bootstrap links that come with javascript the performance is affected, as well as a long animation.
 
+* Desktop
+
+![](assets/images/lighthouse-desktop.png.png)
+
+* Mobile
+
+Some parameters drop drastically due javascript links such as fontawsome, Google Fonts and bootstrap.
+
+![](assets/images/ighthouse-mobile.png)
+
+### Validators
+
+- All files went through the following validators to ensure all code meets the correct standard, some errors were found and fixed.
+
+- HTML [W3C](<https://validator.w3.org/>)
+- CSS [W3C](<https://jigsaw.w3.org/css-validator/>)
+
+
+
+No errors were shown
 ###[Testing](#testing)
 
   - Development Testing
@@ -221,14 +242,14 @@ The site is fully responsive as shown above and all images scale down smoothingl
   - Validators
 
 
-# Bugs
+## Bugs
 
-Sometimes i can't seem to target the css elements from the external CSS file... i don't know why it happens..
+Sometimes i coudn't seem to target the css elements from the external CSS file... i don't know why it happens..
 
-Also even reusing the code, it seems to behave differently in some page... i don't get why...
-For instance the navigation bar for external pages(i don't know whether if i'm saying that right), mean the navigation bar for MINDFULNESS MINDFULNESS/MEDITATION YOGA MEDITATION pages, with that one have came across with a layout issue on the mobile size in only the MINDFULNESS and YOGA pages. Where it says mindfulnes meditation, the words woul go onto each other changing the layout, like this:  ![](../images/Captura%20de%20pantalla%20(24).png)
+Also even reusing the code, it seems to behave differently in some pages... i don't get why...
+For instance the navigation bar (i don't know whether if i'm saying that right), i mean the navigation bar for MINDFULNESS MINDFULNESS/MEDITATION YOGA MEDITATION pages, with that one have came across with a layout issue on the mobile size in only the MINDFULNESS and YOGA pages. Where it says mindfulnes meditation, the words woul go onto each other changing the layout, like this:  ![](../images/Captura%20de%20pantalla%20(24).png)
 
-The odd thing is that it only happen in the Mindfulness page.
+The odd thing is that it only happens in the Mindfulness page.
 
 To solve this, i didn't want to change the font size as it would be too small to my liking, so i wided its container margin and did the same in all the pages to make sure it does not happen in any device to any page.
 
