@@ -6,13 +6,9 @@ body{
 
 }
 
-
  .navbar, .call-to-action-container, .benefits-container, footer{
    padding: 3% 6%;
  }
-
-
-
 
 /***** HEADER ******/
 nav  a{
@@ -36,7 +32,6 @@ border-radius: 10px;
   font-family: 'Open Sans', sans-serif;
 
 }
-
 
 /****  NAVIGATION BAR  ************/
 
@@ -68,11 +63,11 @@ color: rgb(246, 200, 133);
   color: rgb(255, 179, 68);
 
 }
+
 /**** NAVIGATION BAR MOBILE ****/
 .navigation-mobile-container{
   display: none;
 }
-
 
 /***** PAGE NAVIGATION ****/
 .top-page-navigation{
@@ -102,12 +97,10 @@ border-radius: 10px;
   width: 40%;
 }
 
-
  .review-container a{
   margin-left: 20px;
   margin-right: 20px;
 }
-
 
 /* FOOTER SECTION */
 
@@ -116,7 +109,6 @@ border-radius: 10px;
   width: 100%;
   margin-bottom: 0;
   padding-top: 5%;
-
 }
 
 .footer-brand{
@@ -134,11 +126,11 @@ font-size: 2.5rem;
   display: flex;
 }
 
-
 .footer-items-container{
   margin: 0 80px;
   line-height: 45px;
 }
+
 .footer-items-container p{
   padding-bottom: 14px;
 }
@@ -151,7 +143,6 @@ color: white;
 #footer a:hover{
   color: rgb(255, 179, 68);
   text-decoration: none;
-
 }
 
 .copy-right{
@@ -159,22 +150,11 @@ color: white;
   color: white;
   padding: 5%;
   margin-bottom: 0;
-
 }
 
 #modal-footer-wraper{
   display: none;
 }
-
-
-
-
-
-
-
-
-
-
 
 /*** PAGE CONTENT ***/
 
@@ -228,13 +208,11 @@ color:rgb(179, 0, 203);
   text-align: left;
 }
 
-
 .main-wraper h6{
   margin-top: 30px;
   color:rgb(108, 106, 45);
   font-weight: bold;
 }
-
 
 .main-wraper a{
   color: rgb(56, 154, 195);
@@ -267,59 +245,6 @@ img{
   margin-bottom: 15px;
   color: #444941;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 @media (max-width: 1000px){
 
@@ -461,21 +386,6 @@ img{
     margin-right: 10px;
   }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
   /************* PAGE CONTENT *******/
 
   h1{
@@ -498,11 +408,11 @@ img{
     padding: 3% 15%;
 
   }
+
   .main-wraper ul li{
     color:rgb(108, 106, 45);
     text-align: left;
   }
-
 
 #video-1, #video-2{
   width:450px;
@@ -513,68 +423,6 @@ img{
   color: #444941;
 }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 @media (max-width: 575px){
 
@@ -710,43 +558,6 @@ border-radius: 10px;
 
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
   /** PAGE CONTENT **/
 
   h1{
@@ -779,5 +590,4 @@ border-radius: 10px;
     width:300px;
      height:180px;
   }
-
 }

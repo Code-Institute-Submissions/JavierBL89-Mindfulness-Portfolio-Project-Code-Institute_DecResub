@@ -3,7 +3,6 @@ body {
   color: #444941;
   margin: 0;
   font-family: 'Poppins', sans-serif;
-
 }
 
 .main-wraper {
@@ -22,7 +21,6 @@ h1, h2, h3, h4 ,h5{
 p{
   font-family: 'Poppins', sans-serif;
 }
-
 
 /***** HEADER ******/
 
@@ -44,7 +42,6 @@ nav a {
   border: solid 1px rgb(246, 252, 244);
 }
 
-
 .nav-link:hover{
   color:#444941;
 border-color: #444941;
@@ -55,7 +52,6 @@ border-radius: 10px;
   font-size: 2rem;
   font-weight: bold;
   font-family: 'Open Sans', sans-serif;
-
 }
 
 .navbar-brand:hover{
@@ -74,7 +70,6 @@ border-radius: 10px;
   animation-duration: 4s;
   animation-fill-mode: forwards;
 }
-
 
 @keyframes cover {
   from{
@@ -107,7 +102,6 @@ border-radius: 10px;
   animation-duration: 3s;
 }
 
-
 @keyframes boxSlide {
 
   from{
@@ -129,7 +123,6 @@ bottom: 20px;
   animation-name: mindSlide;
   animation-duration:3s;
   color:white;
-
 }
 
 @keyframes mindSlide {
@@ -138,23 +131,20 @@ bottom: 20px;
     right: 500px;
     color: rgba(255, 255, 255, 0);
   }
+
   to{
     left: 0;
     color:white;
-
   }
 
 }
-
 
 .body{
   position: relative;
   animation-name: bodySlide;
   animation-duration:6s;
   color:white;
-
 }
-
 
 @keyframes bodySlide {
   from{
@@ -165,7 +155,6 @@ bottom: 20px;
   to{
     left: 0;
     color:white;
-
   }
 
 }
@@ -185,12 +174,11 @@ bottom: 20px;
   }
   to{
     color: rgba(255, 255, 255, 0.14);
-
   }
+
   to{
     left: 0;
     color: rgba(255, 255, 255, 1);
-
   }
 
 }
@@ -210,7 +198,6 @@ background-color: rgb(246, 252, 244);
   margin-top: 60px;
 }
 
-
 .benefits-container ul{
   padding-left: 18%;
   padding-right: 18%;
@@ -223,8 +210,6 @@ margin-bottom: 60px;
   color: rgb(89, 133, 85);
   list-style-type: none;
 }
-
-
 
 /***** BUTTON *****/
 
@@ -249,13 +234,8 @@ font-family: 'Open Sans', sans-serif;
   color:  rgb(24, 68, 21);
 }
 
-
-
-
-
-
-
 /* FOOTER SECTION */
+
 #footer {
   background-color: rgb(37, 50, 42);
   width: 100%;
@@ -295,7 +275,6 @@ font-family: 'Open Sans', sans-serif;
 #footer a:hover {
   color: rgb(255, 179, 68);
   text-decoration: none;
-
 }
 
 .copy-right {
@@ -310,25 +289,6 @@ font-family: 'Open Sans', sans-serif;
 #modal-footer-wraper {
   display: none;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /***** MEDIA SECTION ***/
 @media (max-width: 1000px) {
@@ -354,8 +314,6 @@ font-family: 'Open Sans', sans-serif;
   .navbar-brand {
     font-size: 1.8rem;
   }
-
-
 
   /** COVER SECTION **/
   .img-cover-container {
@@ -413,8 +371,6 @@ ul > li{
   border-color: rgb(250, 239, 154);
   }
 
-
-
   /***  MODAL FOOTER SECTION ****/
 
   .footer-containers-wrapper {
@@ -429,13 +385,11 @@ ul > li{
   .modal-footer-container {
     display: flex;
     padding: 0 20%;
-
   }
 
   .modal-items-container {
     display: flex;
     line-height: 45px;
-
   }
 
   .modal-footer-links-container {
@@ -458,19 +412,11 @@ ul > li{
     text-align: center;
     color: white;
     background-color: rgb(37, 50, 42);
-
   }
-
 }
 
-
-
-
-
-
-
-
 @media(max-width: 575px) {
+
   .burguer {
     position: absolute;
     right: 25px;
@@ -490,7 +436,6 @@ ul > li{
   .navbar-brand {
     font-size: 1.5rem;
   }
-
 
   .cover-content {
     width: 90%;
@@ -528,12 +473,12 @@ ul > li{
     font-size: 18px;
   }
 
-
 /* BUTTON */
 
 .button-container{
   margin: 15% auto 15%;
 }
+
 .button-container a{
   font-size: 1.2rem;
   font-weight: 500;
@@ -545,7 +490,6 @@ ul > li{
   .btn:focus{
     outline: none;
   }
-
 
   /* FOOTER SECTION */
   .footer-containers-wrapper {

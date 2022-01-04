@@ -13,9 +13,8 @@ header{
    padding: 3% 6%;
  }
 
-
-
 /***** HEADER ******/
+
 nav  a{
   color: #444941;
 }
@@ -94,8 +93,8 @@ font-weight: 500;
 
 }
 
-
 /***** REVIEW CONTAINER ******/
+
 .review-container{
   text-align: center;
   margin-top: 8%;
@@ -108,7 +107,6 @@ margin-bottom: 50px;
 border-radius: 10px;
   width: 40%;
 }
-
 
  .review-container a{
   margin-left: 20px;
@@ -170,8 +168,6 @@ color: white;
 #modal-footer-wraper{
   display: none;
 }
-
-
 
 /********** PAGE CONTENT ***********/
 
@@ -264,8 +260,6 @@ img{
   height: 210px;
 }
 
-
-
 /*** TECNIQUES ***/
 
 .mindfulness-meditation-techniques-content li{
@@ -287,40 +281,6 @@ img{
 .benefits-container ul li{
   margin-bottom: 15px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /***** MEDIA SECTION ***/
 
@@ -397,7 +357,6 @@ margin-bottom: 30px;
 .top-page-items-navigation{
   display: flex;
 margin: 0 auto;
-
 }
 
   .top-page-items-navigation a{
@@ -407,7 +366,6 @@ margin: 0 auto;
     text-align: center;
 
   }
-
 
   /***  MODAL FOOTER SECTION ****/
 
@@ -452,8 +410,8 @@ margin: 0 auto;
     background-color: rgb(37, 50, 42);
   }
 
-
   /***** REVIEW CONTAINER ******/
+
   .review-container{
     margin-top: 8%;
     margin: 0 auto;
@@ -471,11 +429,6 @@ margin: 0 auto;
     margin-right: 10px;
 
   }
-
-
-
-
-
 
   /*********** PAGE CONTENT **************/
 
@@ -517,70 +470,6 @@ margin: 0 auto;
    height:290px;
 }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 @media (max-width: 575px){
 
@@ -695,7 +584,6 @@ font-size: 19px
   margin-right: 5px;
   font-size: 14px;
   text-align: center;
-
 }
 
 /***** REVIEW CONTAINER ******/
@@ -718,40 +606,7 @@ border-radius: 10px;
  .review-container a{
   margin-left: 5px;
   margin-right: 5px;
-
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
   /** PAGE CONTENT **/
 
