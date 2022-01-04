@@ -1,12 +1,45 @@
-# MINDFULNESS-MEDITATION-Code-Institute-Project
+# Overview
 
-https://javierbl89.github.io/Mindfulness-Portfolio-Project-Code-Institute/
+This website is ideal for anyone looking for information about mindfulness, meditation and yoga, providing value information clearly explained with a very nice and cleaned design making it looks joyful, searching for an enjoyable user experience.
 
-## About
-Support and techniques about Mindfulness/Meditation/Yoga
-Every page provides an introduccion and definition of what it is about, along with techniques and support on how it should be done accompanied to videos or video links to exercises.
+Displays clearly what the site is about, and what the user can expect, such as how to get started on any of the subjects, techniques, exercises, videos, podcasts meditation sessions, support, and so on and forth.
 
-All the content has been copied and pasted away, only been carefully choosen from diferents sources as well as the videos and video links, nothing it's been taken ligthly.
+![](assets/images/responsiveness-devices.png)
+
+* [Go to the live website](https://javierbl89.github.io/Mindfulness-Portfolio-Project-Code-Institute/)
+
+## What you must know
+
+At the moment all the links on the home page header and footer links on every page are desabled or will lead to the home page, as well as the hamburguer menu on tablet and mobile screen size will not expand.
+
+To get into the main pages the user must clink on the button "LET'S GET INTO IT", which is clearly displayed in the mid of the home page.
+
+All the content has been copied and pasted away, only been carefully chosen from differents sources, as well as videos, nothing it's been taken ligthly.
+
+# Table contents
+
+### [Planning stage](#planning-stage)
+
+  - Target Audiences
+  - User stories
+  - Design goals
+  - Design choises
+  - Font
+  - Color scheme
+  - Wireframes
+
+### [Features](#features)
+
+  - Descriptions
+  - Exercises
+  - Videos
+  - Shop
+  - Support
+  - Navigation
+  - Page links navigation
+  - Collapse menu
+
+### [Future features](#future-features)
 
 
 ## Project images
