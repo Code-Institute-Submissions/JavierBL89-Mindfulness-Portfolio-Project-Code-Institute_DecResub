@@ -41,92 +41,185 @@ All the content has been copied and pasted away, only been carefully chosen from
 
 ### [Future features](#future-features)
 
+###[Testing](#testing)
 
-## Project images
+  - Development Testing
+  - Manual Testing
+  - Responsiveness
+  - Lighthouse
+    - Desktop
+    - Mobile
+  - Validators
 
-Desktop
-[](assets/images/Captura%20de%20pantalla%20(25).png)
-[](assets/images/Captura%20de%20pantalla%20(26).png)
-[](assets/images/Captura%20de%20pantalla%20(27).png)
+###[Technology Used](#technology-used)
 
-Mobile
-[](assets/images/Captura%20de%20pantalla%20(30).png)
-[](assets/images/Captura%20de%20pantalla%20(31).png)
-[](assets/images/Captura%20de%20pantalla%20(32).png)
+  - Languages
+  - Libraries
 
-# Me
-I'm only new to programming. Last year i took up a Full Stack Web Development course through Udemy tought by Angela Yu, which is a well-rounded and extense course.
+###[Bugs](#bugs)
 
-After building up a few walk through projects, i am happily putting out there my very first project on my own.
+  - Fixed bugs
+  - Known Bugs
 
-I chose one of the Projects ideas provided by Code Institute, since I'm not very agil for now to come up with apps ideas.. :)
+###[Deployment](#deployment)
 
-Following the Portfolio 1 Code Institute Project rules, this project is build-up by only using HTML and CSS, so you'll find the burhuer menu no functional, although i implemented Boostrap for Navbar layout and for buttons style in cases i needed it.
+###[Credits](#credits)
+
+  - Content
+  - Media
+  - Thanks
+
+## Planning stage
+
+## Target Audiences
+
+This website is ideal for anyone looking for information about mindfulness, meditation and yoga.
+It is also perfect to anyone wanting to initiate on those topics or simply to follow along a guided video tutorial, podcasts or having a live session.
+
+### User stories
+
+  - As user i want a clear first impression of what the site is about
+  - As user i want a straightforward design
+  - As user i want an easy and defined navigation
+  - As user i want clear and straight information
+  - As user i want a have a good experience
+  - As user i want support section
+  - As user i want to be able to contact the site workers
+
+### Design goals
+
+  - Beautiful color pallet to stand out from other similar websites
+  - A color pallet to represent what the site is about
+  - Minimalistic design
+  - Well structure information
+  - Easy readability
+  - Intuitive navigation
+  - Joyful combination of design, color and typografy
+  - Fully responsive in all device sizes
+
+   - Desktop
+
+   ![](assets/images/desktop.png)
+
+   - Tablet
+
+   ![](assets/images/tablet.png)
+
+   - Mobile
+
+   ![](assets/images/mobile.png)
+
+### Design choises
+
+#### Fonts
+
+  Fonts were taken from [Google fonts](<https://fonts.google.com/>)
+
+    - For header and footer logo, 'Open Sans', sans-serif
+    - For all rest of the content, 'Poppins' sans-serif
+
+#### Color scheme
+
+The color pallet was carefully chosen trying to pair with site goals and conveying the right message.
+
+  - Logo color: rgb(255, 179, 68);
+  - Body background: rgb(246, 252, 244);
+  - Body color: #444941;
+  - Navigation bar background:  #444741;
+  - Navigation bar color: rgb(255, 179, 68);
+  - Navigation bar links color: rgb(246, 200, 133);
+  - Footer and header links color hover: rgb(246, 200, 133);
+
+### Wireframes
+
+  I drew the initial idea on a paper to wire frame the project, i prefer user pen and paper as it is faster, but i didn't keep the drafts this time. The final project design is a bit different to the initial one.
+
+## Features
+
+- Video Content
+
+Videos are all over site giving an extra to all the text content and help users to understand what a specific subject is about through funny videos carefully chosen, as well as guided video tutorials whit exercises.
+
+ ![](assets/images\video.png)
+
+- Links
+
+Links that lead to external sources and are opened in a new window.
+
+![](assets/images/links.png)
+
+- Navigation
+
+  1. A sticky navigation bar to easily navigate through the site.
+
+  ![](assets/images/navigation-bar.png)
+
+  2. Page links at top of each one to navigate in the page.
+
+  ![](assets/images/page-links.png)
+- Collapse menu
+
+The header menu collapses into a hamburguer menu(currently desabled) on devices under 900px
+
+![](assets/images/hamburguer.png)
+- Footer
+
+The foot of every page contains a nice footer section fully responsive with some extra links(desabled), along with the site's logo.
+
+![](assets/images/footer.png)
+
+### Future features
+
+* Expand hamburguer menu
+* Give live to the desabled links
+* Blog
+* Sing in page.
+* User account page.
+* Guided exercises according to levels.
+* Weekly/Monthly Guided exercises for the ones with little spare time or the ones who need some guidance to tel them what to do next, etc.
+* Payment page.
+* Related content, such as videos, interviews, books, gear.. etc.
+* Community, set up a community interface for sharing, helping, meetings and live meditations sessions.
+* Shop linked to the page.
 
 
-# Project Estructure
+### Testing
 
-The project is divided in 6 pages:
+* **Development Testing**
 
-### Main pages
-1. HOME
-https://javierbl89.github.io/Mindfulness-Portfolio-Project-Code-Institute/index.html
+  - During the development process, i was manually testing the appearance and responsiveness locally, just by pasting the file path on the browser's bar.
 
-2. MINDFULNESS
-https://javierbl89.github.io/Mindfulness-Portfolio-Project-Code-Institute/assets/html/mindfulness.html
+  - Checked on Github pages that all the links to other internal pages work(files path)
 
-3. MINDFULNESS MEDITATION
-https://javierbl89.github.io/Mindfulness-Portfolio-Project-Code-Institute/assets/html/mindfulness&meditation.html
+  - Published the page via GitHub pages and shared with friends to test and provide feedback.
 
-4. MEDITATION
-https://javierbl89.github.io/Mindfulness-Portfolio-Project-Code-Institute/assets/html/meditation.html
+###Manual Testing
 
-5. YOGA
-https://javierbl89.github.io/Mindfulness-Portfolio-Project-Code-Institute/assets/html/yoga.html
+Tested in 3 different desktop browser's to ensure cross-compatibility:
 
-### Sub pages
-6. BODY SCAN
-https://javierbl89.github.io/Mindfulness-Portfolio-Project-Code-Institute/assets/html/bodyScan.html
+- Chrome
+- Firefox
+- Internet Explorer
 
-# Pages structure
+  I also used devtools to see changes of margin and padding by modifing parameters in the box, and i also used devtools to simulate different screen sizes/devices down to 320 px in width.
 
-Every page is made up by;
+## Responsiveness
 
-1. Navbar.
-2.Navigation bar for external pages.
-3.Navigation bar for page sections.
-4.Page content.
-5.Footer.
+The site is fully responsive as shown above and all images scale down smoothingly by device.
 
-# CSS files structure
-
-I have reused plenty of code for templaiting, and i have organised the CSS code for it to be easy to find by using the line numbers as landmarks, so all of the CSS files(except home.css) are equally structure:
-
-Line 1 onwards    -Common Features.
-
-Line 180 onwards  -Page content for Desktop.
-
-Line 325 onwards   -Media 1000px Common Features.
-
-Line 480 onwads    -Media 1000px Page Content.
-
-Line 580 onwards   -Media 575px Common Features.
-
-Line 740 onwards   -Media 575px Page Content.
+### Lighthouse
 
 
-# Developing the project
+###[Testing](#testing)
 
-Plenty of features could be added such as;
+  - Development Testing
+  - Manual Testing
+  - Responsiveness
+  - Lighthouse
+    - Desktop
+    - Mobile
+  - Validators
 
-1. Sing in page.
-2. User page.
-3. Guided exercises according to levels.
-4. Weekly/Monthly Guided exercises for the ones with little spare time or the ones who need some guidance to tel them what to do next, etc.
-5. Payment page.
-6. Related content, such as videos, interviews, books, gear.. etc.
-7. Community, set up a community interface for sharing, helping, meetings and live meditations sessions.
-8. Shop linked to the page.
 
 # Bugs
 
