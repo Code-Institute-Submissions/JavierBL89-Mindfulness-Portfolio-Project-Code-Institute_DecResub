@@ -144,17 +144,17 @@ Videos are all over site giving an extra to all the text content and help users 
 
 - Links
 
-Links that lead to external sources and are opened in a new window.
+Links lead to external sources and are opened in a new window.
 
 ![](assets/images/links.png)
 
 - Navigation
 
-  1. A sticky navigation bar to easily navigate through the site.
+  1.A sticky navigation bar to easily navigate through the site.
 
   ![](assets/images/navigation-bar.png)
 
-  2. Page links at top of each one to navigate in the page.
+  2.Page links at top of each one to navigate in the page.
 
   ![](assets/images/page-links.png)
 - Collapse menu
@@ -252,21 +252,36 @@ To solve this, i didn't want to change the font size as it would be too small to
 The project was deployed to [Heroku](<https://id.heroku.com/login>) using the below procedure:-
 
 1.Log in to **Heroku** or create an account if required.
+
 2.Click the button labeled **New** from the dashboard in the top right corner, just below the header.
+
 3.From the drop-down menu select "Create new app".
+
 4.Enter a unique **app** name.
+
 5.Once the web portal shows the green tick to confirm the name is original select the relevant region. In my case, I chose Europe as I am in Dublin.
+
 6.When happy with your choice of name and that the correct region is selected, click on the "Create app" button.
+
 7.This will bring you to the project "Deploy" tab. From here, navigate to the settings tab and scroll down to the "Config Vars" section.
+
 8.Click the button labelled "Reveal Config Vars" and enter the "key" as port, the "value" as 8000 and click the "add" button.
+
 9.Scroll down to the buildpacks section of the settings page and click the button labeled " add buildpack," select "Python," and click "Save Changes".
+
 10.Repeat step 11 but this time add "node.js" instead of python.
    - IMPORTANT The buildpacks must be in the correct order. If node.js is listed first under this section, you can click on python and drag it upwards to change it to the first buildpack in the list.
+
 11.Scroll back to the top of the settings page, and navigate to the "Deploy" tab.
+
 12.From the deploy tab select Github as the deployment method.
+
 13.Confirm you want to connect to GitHub.
+
 14.Search for the repository name and click the connect button next to the intended repository.
+
 15.From the bottom of the deploy page select your preferred deployment type by follow one of the below steps:
+
     - Clicking either "Enable Automatic Deploys" for automatic deployment when you push updates to **Github**.
     - Select the correct branch for deployment from the drop-down menu and click the "Deploy Branch" button for manual deployment.
 
@@ -286,16 +301,16 @@ The project was deployed to [Heroku](<https://id.heroku.com/login>) using the be
    - [Wikypedia meditation](<https://en.wikipedia.org/wiki/Meditation>)
    - [Meditation](<https://www.headspace.com/meditation-101/what-is-meditation>)
 
-  - **Media**
+- **Media**
 
   All the videos embedded are from **youtube**, and many of links lead to a youtube videos.
 
- - **Extra notes**
+- **Extra notes**
 
  This project contains 4 big commits that were done before i learnt how to work properly with git.
 
-  - **Acknowledgements**
+- **Acknowledgements**
 
   This project would have not been possible without all the ressourses mentioned above.
 
-  Nobody else but myself took part during the development of this project.
+  Nobody else but myself took part during the development of this project...
