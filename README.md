@@ -67,7 +67,7 @@ All the content has been copied and pasted away, only been carefully chosen from
 
   - Content
   - Media
-  - Thanks
+  - Acknowledgements
 
 ## Planning stage
 
@@ -94,7 +94,7 @@ It is also perfect to anyone wanting to initiate on those topics or simply to fo
   - Well structure information
   - Easy readability
   - Intuitive navigation
-  - Joyful combination of design, color and typografy
+  - Joyful combination of design, color pallet and typografy
   - Fully responsive in all device sizes
 
    - Desktop
@@ -152,7 +152,7 @@ Links lead to external sources and are opened in a new window.
 
   1.A sticky navigation bar to easily navigate through the site.
 
-  ![](assets/images/navigation-bar.png)
+  ![](assets/images/sticky-bar.png)
 
   2.Page links at top of each one to navigate in the page.
 
@@ -282,8 +282,8 @@ The project was deployed to [Heroku](<https://id.heroku.com/login>) using the be
 
 15.From the bottom of the deploy page select your preferred deployment type by follow one of the below steps:
 
-    - Clicking either "Enable Automatic Deploys" for automatic deployment when you push updates to **Github**.
-    - Select the correct branch for deployment from the drop-down menu and click the "Deploy Branch" button for manual deployment.
+  - Clicking either "Enable Automatic Deploys" for automatic deployment when you push updates to **Github**.
+  - Select the correct branch for deployment from the drop-down menu and click the "Deploy Branch" button for manual deployment.
 
 ## Credits
 
@@ -313,4 +313,4 @@ The project was deployed to [Heroku](<https://id.heroku.com/login>) using the be
 
   This project would have not been possible without all the ressourses mentioned above.
 
-  Nobody else but myself took part during the development of this project...
+  Nobody else but myself took part during the development of this project.
