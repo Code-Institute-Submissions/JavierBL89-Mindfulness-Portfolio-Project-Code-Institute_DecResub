@@ -115,30 +115,30 @@ It is also perfect to anyone wanting to initiate on those topics or simply to fo
 
   Fonts were taken from [Google fonts](<https://fonts.google.com/>)
 
-    - For header and footer logo, 'Open Sans', sans-serif
-    - For all rest of the content, 'Poppins' sans-serif
+  - For header and footer logo, 'Open Sans', sans-serif
+  - For all rest of the content, 'Poppins' sans-serif
 
 #### Color scheme
 
 The color pallet was carefully chosen trying to pair with site goals and conveying the right message.
 
-  - Logo color: rgb(255, 179, 68);
-  - Body background: rgb(246, 252, 244);
-  - Body color: #444941;
+  - Logo color:  rgb(255, 179, 68);
+  - Body background:  rgb(246, 252, 244);
+  - Body color:  #444941;
   - Navigation bar background:  #444741;
-  - Navigation bar color: rgb(255, 179, 68);
-  - Navigation bar links color: rgb(246, 200, 133);
-  - Footer and header links color hover: rgb(246, 200, 133);
+  - Navigation bar color:  rgb(255, 179, 68);
+  - Navigation bar links color:  rgb(246, 200, 133);
+  - Footer and header links color hover:  rgb(246, 200, 133);
 
 ### Wireframes
 
-  I drew the initial idea on a paper to wire frame the project, i prefer user pen and paper as it is faster, but i didn't keep the drafts this time. The final project design is a bit different to the initial one.
+  I drew the initial idea on a paper to wire frame the project, i prefer use pen and paper as it is faster, but i didn't keep the drafts this time. The final project design is a bit different to the initial one.
 
 ## Features
 
 - Video Content
 
-Videos are all over site giving an extra to all the text content and help users to understand what a specific subject is about through funny videos carefully chosen, as well as guided video tutorials whit exercises.
+Videos are all over site giving an extra to all the text content and help users to understand what a specific subject is about through funny videos carefully chosen, as well as guided video tutorials.
 
  ![](assets/images\video.png)
 
@@ -193,7 +193,7 @@ The foot of every page contains a nice footer section fully responsive with some
 
   - Published the page via GitHub pages and shared with friends to test and provide feedback.
 
-###Manual Testing
+### Manual Testing
 
 Tested in 3 different desktop browser's to ensure cross-compatibility:
 
@@ -229,30 +229,73 @@ Some parameters drop drastically due javascript links such as fontawsome, Google
   - CSS [W3C](<https://jigsaw.w3.org/css-validator/>)
 
 
-
-No errors were shown
-###[Testing](#testing)
-
-  - Development Testing
-  - Manual Testing
-  - Responsiveness
-  - Lighthouse
-    - Desktop
-    - Mobile
-  - Validators
+No errors were shown on any file when run through the validators.
 
 
 ## Bugs
 
-Sometimes i coudn't seem to target the css elements from the external CSS file... i don't know why it happens..
+Since this was my very first project and did never do a README file before i did nor record the issues i faced.  
 
-Also even reusing the code, it seems to behave differently in some pages... i don't get why...
-For instance the navigation bar (i don't know whether if i'm saying that right), i mean the navigation bar for MINDFULNESS MINDFULNESS/MEDITATION YOGA MEDITATION pages, with that one have came across with a layout issue on the mobile size in only the MINDFULNESS and YOGA pages. Where it says mindfulnes meditation, the words woul go onto each other changing the layout, like this:  ![](../images/Captura%20de%20pantalla%20(24).png)
+While developing this project i only faced layout issues.
 
-The odd thing is that it only happens in the Mindfulness page.
+1.The most painful one was on the navigation bar the link that says "mindfulness meditation", on mobile screen size one word would go onto the other.
+
+![](assets/images/issue.jpg)
+
 
 To solve this, i didn't want to change the font size as it would be too small to my liking, so i wided its container margin and did the same in all the pages to make sure it does not happen in any device to any page.
 
-Another challenge was to figure out the files paths when deploying into github, i have spent quite a few hours of trail an error, till i realized github needs a few minutes to finally update changes..
+2.Another challenge was to figure out the files paths when deploying into **github**, i have spent quite a few hours of trail an error, till i realized **github** needs a few minutes to finally update changes..
 
-That's all for, see you soon!
+## Deployment
+
+The project was deployed to [Heroku](<https://id.heroku.com/login>) using the below procedure:-
+
+1.Log in to **Heroku** or create an account if required.
+2.Click the button labeled **New** from the dashboard in the top right corner, just below the header.
+3.From the drop-down menu select "Create new app".
+4.Enter a unique **app** name.
+5.Once the web portal shows the green tick to confirm the name is original select the relevant region. In my case, I chose Europe as I am in Dublin.
+6.When happy with your choice of name and that the correct region is selected, click on the "Create app" button.
+7.This will bring you to the project "Deploy" tab. From here, navigate to the settings tab and scroll down to the "Config Vars" section.
+8.Click the button labelled "Reveal Config Vars" and enter the "key" as port, the "value" as 8000 and click the "add" button.
+9.Scroll down to the buildpacks section of the settings page and click the button labeled " add buildpack," select "Python," and click "Save Changes".
+10.Repeat step 11 but this time add "node.js" instead of python.
+   - IMPORTANT The buildpacks must be in the correct order. If node.js is listed first under this section, you can click on python and drag it upwards to change it to the first buildpack in the list.
+11.Scroll back to the top of the settings page, and navigate to the "Deploy" tab.
+12.From the deploy tab select Github as the deployment method.
+13.Confirm you want to connect to GitHub.
+14.Search for the repository name and click the connect button next to the intended repository.
+15.From the bottom of the deploy page select your preferred deployment type by follow one of the below steps:
+    - Clicking either "Enable Automatic Deploys" for automatic deployment when you push updates to **Github**.
+    - Select the correct branch for deployment from the drop-down menu and click the "Deploy Branch" button for manual deployment.
+
+## Credits
+
+- **Content**
+
+  All the content on this project was picked and carefully chosen from different websites.
+
+   - [Basic yoga](<https://greatist.com/move/common-yoga-poses>)
+   - [Mindfulness](<https://www.mindful.org/meditation/mindfulness-getting-started/>)
+   - [Mindfulness](<https://psychcentral.com/blog/new-to-mindfulness-how-to-get-started#1>)
+   - [Mindfulness meditation](<https://www.verywellmind.com/mindfulness-meditation-88369>)
+   - [Mindfulness meditation](<https://www.mindful.org/meditation/mindfulness-getting-started/>)
+   - [Mindfulness exercises](<https://www.mayoclinic.org/healthy-lifestyle/consumer-health/in-depth/mindfulness-exercises/art-20046356>)
+   - [Meditation](<https://www.mindful.org/how-to-meditate/>)
+   - [Wikypedia meditation](<https://en.wikipedia.org/wiki/Meditation>)
+   - [Meditation](<https://www.headspace.com/meditation-101/what-is-meditation>)
+
+  - **Media**
+
+  All the videos embedded are from **youtube**, and many of links lead to a youtube videos.
+
+ - **Extra notes**
+
+ This project contains 4 big commits that were done before i learnt how to work properly with git.
+
+  - **Acknowledgements**
+
+  This project would have not been possible without all the ressourses mentioned above.
+
+  Nobody else but myself took part during the development of this project.
