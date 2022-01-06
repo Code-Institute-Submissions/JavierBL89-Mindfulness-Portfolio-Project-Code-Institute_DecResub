@@ -259,41 +259,7 @@ Deployed the website on GitHub pages via the following:
 5. The following message will appear: Your site is ready to be published.
 6. After a few minutes the site will be published and the message will change to Your site is published.
 
-<<<<<<< HEAD
 You can access this site on the following link [Mind&Body](https://javierbl89.github.io/Mindfulness-Portfolio-Project-Code-Institute/)
-=======
-2.Click the button labeled **New** from the dashboard in the top right corner, just below the header.
-
-3.From the drop-down menu select "Create new app".
-
-4.Enter a unique **app** name.
-
-5.Once the web portal shows the green tick to confirm the name is original select the relevant region. In my case, I chose Europe as I am in Dublin.
-
-6.When happy with your choice of name and that the correct region is selected, click on the "Create app" button.
-
-7.This will bring you to the project "Deploy" tab. From here, navigate to the settings tab and scroll down to the "Config Vars" section.
-
-8.Click the button labelled "Reveal Config Vars" and enter the "key" as port, the "value" as 8000 and click the "add" button.
-
-9.Scroll down to the buildpacks section of the settings page and click the button labeled " add buildpack," select "Python," and click "Save Changes".
-
-10.Repeat step 11 but this time add "node.js" instead of python.
-   - IMPORTANT The buildpacks must be in the correct order. If node.js is listed first under this section, you can click on python and drag it upwards to change it to the first buildpack in the list.
-
-11.Scroll back to the top of the settings page, and navigate to the "Deploy" tab.
-
-12.From the deploy tab select Github as the deployment method.
-
-13.Confirm you want to connect to GitHub.
-
-14.Search for the repository name and click the connect button next to the intended repository.
-
-15.From the bottom of the deploy page select your preferred deployment type by follow one of the below steps:
-
-  - Clicking either "Enable Automatic Deploys" for automatic deployment when you push updates to **Github**.
-  - Select the correct branch for deployment from the drop-down menu and click the "Deploy Branch" button for manual deployment.
->>>>>>> cdefe1a92c49c19e8f86d2c5f9ccc3f0b89e086b
 
 ## Credits
 
