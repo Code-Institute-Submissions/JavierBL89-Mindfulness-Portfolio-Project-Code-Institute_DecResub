@@ -41,7 +41,7 @@ All the content has been copied and pasted away, only been carefully chosen from
 
 ### [Future features](#future-features)
 
-###[Testing](#testing)
+### [Testing](#testing)
 
   - Development Testing
   - Manual Testing
@@ -51,19 +51,19 @@ All the content has been copied and pasted away, only been carefully chosen from
     - Mobile
   - Validators
 
-###[Technology Used](#technology-used)
+### [Technology Used](#technology-used)
 
   - Languages
   - Libraries
 
-###[Bugs](#bugs)
+### [Bugs](#bugs)
 
   - Fixed bugs
   - Known Bugs
 
-###[Deployment](#deployment)
+### [Deployment](#deployment)
 
-###[Credits](#credits)
+### [Credits](#credits)
 
   - Content
   - Media
@@ -213,7 +213,7 @@ Due to a fontawesome, Google Fonts and bootstrap links that come with javascript
 
 * Desktop
 
-![](assets/images/lighthouse-desktop.png.png)
+![](assets/images/lighthouse-desktop.png)
 
 * Mobile
 
@@ -225,8 +225,8 @@ Some parameters drop drastically due javascript links such as fontawsome, Google
 
 - All files went through the following validators to ensure all code meets the correct standard, some errors were found and fixed.
 
-- HTML [W3C](<https://validator.w3.org/>)
-- CSS [W3C](<https://jigsaw.w3.org/css-validator/>)
+  - HTML [W3C](<https://validator.w3.org/>)
+  - CSS [W3C](<https://jigsaw.w3.org/css-validator/>)
 
 
 
